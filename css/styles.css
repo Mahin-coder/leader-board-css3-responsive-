@@ -4,5 +4,95 @@
     box-sizing: border-box;
 }
 body{
+    background-color: #f3f1ff;
     font-family: 'Poppins', sans-serif;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.main_container {
+    max-width: 870px;
+    margin: 0 auto;
+}
+/*Header Section Start*/
+.header_section{
+    background-color: #562eff;
+    margin-bottom: 36px;
+}
+.header-row {
+    display: flex;
+    justify-content: space-between;
+}
+.header_logo {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.logo{
+    display: block;
+    width: 40.42px;
+    height: 51px;
+}
+.logo_idea{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+.header_menu{
+
+}
+.primary_menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+.primary_menu li{
+
+}
+.primary_menu li a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 35px 0;
+}
+.primary_menu li img {
+    display: block;
+}
+/*Header Section End*/
+
+/*Main Section start*/
+/*Top Player Section Start*/
+.main_section{
+
+}
+.top_player {
+    background-color: #fff;
+    padding: 40px 35px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.5);
+}
+.top_player_title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #562eff;
+    margin-bottom: 40px;
+}
+.players {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 29px;
+}
+.player{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.player_image{
+    width: 56px;
+    height: 56px;
+}
+.player_name{
+
 }
